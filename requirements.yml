@@ -1,0 +1,5 @@
+---
+roles:
+  - src: ./roles/web
+    Name: web
+
