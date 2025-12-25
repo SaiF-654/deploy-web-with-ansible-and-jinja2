@@ -1,0 +1,8 @@
+---
+- name: Install Web Service and Deploy Miseacademy Page
+  hosts: all
+  become: yes
+  vars:
+    server_name: "_"
+  roles:
+    - web
